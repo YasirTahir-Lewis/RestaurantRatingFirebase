@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:id="@+id/row_restaurant_name_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:text="Restaurant Name" />
+
+    <TextView
+        android:id="@+id/row_comments_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="Comments"/>
+    <!--
+    <TextView
+        android:id="@+id/row_liked_type_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="Most Liked"/>
+    -->
+    
+    <TextView
+        android:id="@+id/row_restaurant_rating_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:text="Rating Stars" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "202742184428",
+    "firebase_url": "https://testproject-9b062-default-rtdb.firebaseio.com",
+    "project_id": "testproject-9b062",
+    "storage_bucket": "testproject-9b062.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202742184428:android:44231e9d2095a6956268c9",
+        "android_client_info": {
+          "package_name": "edu.lewisu.cs.yasirtahir.restaurantrating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202742184428-qk7brq3lnt26oocpkoodf8uk9phcrdb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgxN3j5FJ1XctmtHUlrUQd2NXv_rR1BsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202742184428-qk7brq3lnt26oocpkoodf8uk9phcrdb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

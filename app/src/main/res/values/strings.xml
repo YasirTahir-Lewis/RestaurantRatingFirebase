@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Restaurant Rating</string>
+    <string name="restaurant_name">Restaurant name</string>
+    <string name="customer_comments">Comments</string>
+    <string-array name="cuisine_type">
+        <item>Select a cuisine type ...</item>
+        <item>French Cuisine</item>
+        <item>Chinese Cuisine</item>
+        <item>Japanese Food</item>
+        <item>Italian Food</item>
+        <item>Mexican Food</item>
+        <item>Mediterranean Cuisine</item>
+        <item>Indian Cuisine</item>
+    </string-array>
+    <string name="rate_a_restaurant">Rate a restaurant</string>
+    <string name="submit_rating">Submit Rating</string>
+
+    <string name="liked">What did you like the most at the restaurant?</string>
+    <string name="food">Food</string>
+    <string name="service">Service</string>
+    <string name="context">Context</string>
+    <string name="price">Price</string>
+    <string name="atmosphere">Atmosphere</string>
+
+    <string name="add_a_review">Add a review</string>
+    <string name="welcome_message">Welcome to the Restaurant Rating App!</string>
+
+    <string name="rating_entered">Rating entered\n</string>
+    <string name="display_restaurant">Restaurant name: %s\n</string>
+
+    <plurals name="star_rating">
+        <item quantity="zero">Rating: %d stars</item>
+        <item quantity="one">Rating: %d star</item>
+        <item quantity="other">Rating: %d stars</item>
+    </plurals>
+
+    <string name="settings">Settings</string>
+
+    <!-- Titles for preference categories -->
+    <string name="rating_pref">Rating Preferences</string>
+    <string name="display_pref">Display Preferences</string>
+
+    <!-- Titles for preferences -->
+    <string name="default_rating">Default rating</string>
+    <string name="theme_choice">Dark Theme</string>
+
+    <!-- Key name for rating preference in SharedPreferences -->
+    <string name="pref_rating_key" translatable="false">rating</string>
+    <string name="pref_theme_key" translatable="false">dark</string>
+
+    <!-- Labels and values for preference list -->
+    <string-array name="rating_labels">
+        <item>One Star</item>
+        <item>Two Stars</item>
+        <item>Three Stars</item>
+        <item>Four Stars</item>
+        <item>Five Stars</item>
+    </string-array>
+
+    <string-array name="rating_values">
+        <item>"1</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Restaurant name, Comments, Cuisine type, Rating and Liked type -->
+
+    <array name="restaurant_names">
+        <item>Red Lobster</item>
+        <item>PF Changs</item>
+        <item>Honada Sushi and Hibachi</item>
+
+    </array>
+
+    <array name="comments">
+        <item>Love the food there, definitely recommend to anyone.</item>
+        <item>Very nice environment.</item>
+        <item>Did not like the food but the service was nice.</item>
+
+    </array>
+
+    <array name="cuisine_types">
+        <item>French Cuisine</item>
+        <item>Chinese Cuisine</item>
+        <item>Japanese Food</item>
+
+    </array>
+
+    <array name="ratings">
+        <item>"5"</item>
+        <item>"4"</item>
+        <item>"3"</item>
+
+    </array>
+
+    <array name="liked_type">
+        <item>Food</item>
+        <item>Service</item>
+        <item>Context</item>
+
+    </array>
+
+    <string name="sign_out">Sign Out</string>
+
+</resources>
+
